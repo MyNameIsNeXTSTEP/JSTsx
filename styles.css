@@ -21,13 +21,35 @@ h1 > a {
     justify-content: center;
 }
 
+.center-column-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin-top: 30px;
+}
+
+section {
+    margin-top: 10px;
+}
+
+section::after {
+    content: "";
+    display: inline-block;
+    border-top: 2px solid darkgray;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 #logo-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 3px solid black;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
 }
 
