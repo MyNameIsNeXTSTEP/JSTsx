@@ -1,0 +1,38 @@
+h3 {
+    color:chocolate;
+}
+
+h1 > a {
+    text-decoration: none;
+    color:brown;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#menu-links > a {
+    padding: 10px;
+    text-decoration: underline;
+    color: black;
+}
