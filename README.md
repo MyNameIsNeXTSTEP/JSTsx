@@ -1,22 +1,22 @@
-# JSTsx
-JS tasks CLI app
+# Welcome JX!
+The CLI tool for managing projects, tasks and git.
 
 ### Objectives
-Create a NodeJS CLI app for local terminal task tracking system with some features like:
-- General listing of all tasks
-- Tasks workspaces with specific user defined prefixes, IDs
+Create a NodeJS CLI tool for local terminal tasks tracking system with some features like:
+
+- General listing of all projects & tasks
+- Tasks workspaces with specific users
 - Each task may display as one-line title and inside the detail page can have more defined content:
   - description
-  -  created at & updated at dates
-  - author
-  - executor
+  - created | updated | deleted dates
+  - authors & subscribers, executor
   - comments
-  -  attachements
-- Controlling is based on VIM keyboard mapping
+  - attachements
+- Keys controll is based on VIM keyboard mapping
 - Printing the task and/or its meta data and/or full content to the report text file
-- Ability to link tasks between themselfs
+- Ability to link tasks between each other
 
 ### Additionally
 - GIT integration
-- ChatGPT integration
+- AI integrations
 - Code editor integrations (?)
