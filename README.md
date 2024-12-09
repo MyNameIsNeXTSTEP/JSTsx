@@ -1,5 +1,8 @@
-# Welcome JX!
-The CLI tool for managing projects, tasks and git.
+# JX
+
+## Welcome the CLI tool for managing projects, tasks and git.
+
+https://mynameisnextstep.github.io/JX
 
 ### Objectives
 Create a NodeJS CLI tool for local terminal tasks tracking system with some features like:
